@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <style>
+
+    * {
+      margin: 0;
+      font-size: 20px;
+      color: rgba(0, 0, 0, 0.76);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* HEADER */
+
+    header {
+      background-color: #DEF2F8;
+    }
+
+    /* MENU */
+
+    .menu {
+      background-color: #F8F9DA;
+      width: 30%;
+      float:left;
+      position: relative;
+      bottom: 0;
+    }
+
+    .toggle2 {
+      display: none;
+    }
+
+    .head {
+      font-weight: bold;
+      margin: 20px;
+    }
+
+    ul{
+      margin: 20px;
+    }
+
+    /* MAIN */
+
+    .main {
+      width: 70%;
+      float: right;
+      background: url(img/banana4.png) 100% 0 repeat-y;
+      background-size: 95px 95px;
+    }
+
+    h2 {
+      margin: 20px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    img {
+      float: left;
+      margin: 20px;
+    }
+
+    .text {
+      padding: 20px;
+    }
+
+    /* FOOTER */
+
+    footer {
+      background-color: #DEF2F8;
+      clear: both;
+    }
+
+    .headline {
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 25px;
+      text-align: center;
+      padding: 15px;
+    }
+
+    @media only screen and (max-width: 1080px) {
+
+      /* MENU */
+
+      .toggle1 {
+        display: none;
+      }
+
+      .toggle2 {
+        display: inline-block;
+        width: 100%;
+        background-color: #F8F9DA;
+      }
+
+      .toggle2 ul {
+        text-align: center;
+      }
+
+      .toggle2 > ul > li {
+        list-style: none;
+        display: inline-block;
+      }
+
+      .toggle2 > ul > li:first-child {
+        border-right: 2px solid rgba(0, 0, 0, 0.76);
+      }
+
+      .toggle2 a {
+        text-decoration: none;
+        padding: 20px;
+      }
+
+      .toggle2 a:hover {
+        color: black;
+        text-decoration: underline;
+      }
+
+      /* MAIN */
+
+      .main {
+        float: none;
+        background: none;
+        text-align: center;
+        width: 100%;
+      }
+
+    }
+
+    @media only screen and (max-width: 730px) {
+
+      img {
+        float: none;
+      }
+
+      .toggle2 > ul > li:first-child {
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.76);
+      }
+
+      .toggle2 > ul > li {
+        padding: 10px;
+      }
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <header>
+    <p class="headline">витамины необходимые человеку</p>
+  </header>
+
+  <div class="menu toggle1">
+    <p class="head">Названия витаминов:</p>
+
+    <ul>
+      <li><a href="#">Витамин А(аксерофтол, ретинол)</a></li>
+      <li><a href="#">Витамин B1(аневрин, тиамин)</a></li>
+      <li><a href="#">Витамин В2(рибо- и лактофлавин)</a></li>
+      <li><a href="#">Витамин В5(пантотеновая кислота)</a></li>
+      <li><a href="#">Витамин В6(пиридоксина гидрохлорид)</a></li>
+      <li><a href="#">Витамин B12(цианокобаламин)</a></li>
+      <li><a href="#">Витамин B15(пангамовая кислота)</a></li>
+      <li><a href="#">Витамин Bс(фолат)</a></li>
+      <li><a href="#">Витамин В9(фолиевая кислота, фолацин)</a></li>
+      <li><a href="#">Витамин С(аскорбиновая кислота)</a></li>
+      <li><a href="#">Витамин Е(токоферол)</a></li>
+      <li><a href="#">Витамин К(филлохинон)</a></li>
+      <li><a href="#">Витамин H(биотин)</a></li>
+      <li><a href="#">Витамин РР(никотиновая кислота, ниацин)</a></li>
+      <li><a href="#">Витамин Р(рутин)</a></li>
+      <li><a href="#">Витамин D(кальциферол)</a></li>
+    </ul>
+
+  </div>
+
+  <div class="toggle2">
+    <ul>
+      <li><a href="#">Жирорастворимые витамины</a></li>
+      <li><a href="#">Водорастворимые витамины</a></li>
+    </ul>
+  </div>
+
+  <div class="main">
+    <h2>ВИТАМИНЫ</h2>
+
+    <div>
+     <img src="img/unnamed.jpg" alt="">
+     <p class="text">
+      Витамины – жизненно важные вещества, необходимые нашему организму для поддержания многих его функций. Поэтому достаточное и
+      постоянное поступление витаминов в организм с пищей крайне важно.
+      Биологическое действие витаминов в организме человека заключается в активном участии этих веществ в обменных процессах. В обмене белков,
+      жиров и углеводов витамины принимают участие либо непосредственно, либо входя в состав сложных ферментных систем. <br><br> Витамины
+      участвуют в окислительных процессах, в результате которых из углеводов и жиров образуются многочисленные вещества, используемые организмом,
+      как энергетический и пластический материал.  Витамины способствуют нормальному росту клеток и развитию всего организма.
+    </p>
+   </div>
+  </div>
+
+  <footer>
+    <p class="headline">Кушай по яблоку в день и доктор не понадобится</p>
+  </footer>
+
+</body>
+</html>
